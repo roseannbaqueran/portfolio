@@ -1,0 +1,30 @@
+Hero Navigation
+    <nav
+      class="hidden absolute top-10 right-10 hidden lg:flex gap-x-12 items-center z-10"
+    >
+      <a
+        href="#"
+        class="text-xl font-poppins font-bold text-gray-900 dark:text-white"
+        >Home</a
+      >
+      <a
+        href="#"
+        class="text-xl font-poppins font-bold text-gray-900 dark:text-white"
+        >About Me</a
+      >
+      <a
+        href="#"
+        class="text-xl font-poppins font-bold text-gray-900 dark:text-white"
+        >Projects</a
+      >
+      <a
+        href="#"
+        class="text-xl font-poppins font-bold text-gray-900 dark:text-white"
+        >Certificates</a
+      >
+      <a
+        href="#"
+        class="text-xl font-poppins font-bold text-gray-900 dark:text-white"
+        >Services</a
+      >
+    </nav>

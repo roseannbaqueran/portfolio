@@ -7,3 +7,77 @@
   );
   background-color: #000;
 }
+#loader {
+  transition: opacity 1s ease, visibility 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* 🌸 Slow spin for rose */
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
+
+/* 🌺 Blooming animation (gentle grow + glow) */
+@keyframes bloom {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.7;
+    filter: drop-shadow(0 0 0px #a855f7);
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+    filter: drop-shadow(0 0 15px #c084fc);
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+    filter: drop-shadow(0 0 10px #a855f7);
+  }
+}
+
+.animate-bloom {
+  animation: bloom 2.5s ease-in-out infinite;
+}
+
+/* 💜 Tint rose image purple */
+.purple-rose {
+  filter: hue-rotate(270deg) saturate(300%) brightness(1.2);
+}
+
+/* ✨ Fade-up animation for text */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.delay-100 {
+  animation-delay: 0.2s;
+}
+
+.delay-200 {
+  animation-delay: 0.4s;
+}
