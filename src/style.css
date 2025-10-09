@@ -1,0 +1,9 @@
+.studio-bg {
+  background-image: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.8) 0%,
+    /* bright white center */ rgba(120, 120, 120, 0.3) 30%,
+    /* soft grey midtone */ rgba(0, 0, 0, 0.95) 80% /* dark edges */
+  );
+  background-color: #000;
+}
